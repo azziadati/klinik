@@ -1,0 +1,149 @@
+* {
+    font-family: "Poppins";
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #bff0be;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col-sm-9,
+.col-md-7,
+.col-lg-5 {
+    max-width: 100%;
+}
+
+/* Variables for common styles */
+:root {
+    --form-background: white;
+    --form-box-shadow: 0 0 2em #e7f9e6;
+    --form-padding: 1em;
+    --form-border-radius: 20px;
+    --form-text-color: #080808;
+    --form-width: 100%;
+    --form-gap: 0.5em;
+}
+
+.screen-1 {
+    background: #eef5ed;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em #73cd97;
+    gap: 2em;
+    align-items: center;
+    /* Center align horizontally */
+    justify-content: center;
+    /* Center align vertically */
+    max-width: 400px;
+    /* Maximum width to maintain responsiveness */
+}
+
+.screen-1 .logo {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    margin-top: -1em;
+    margin-bottom: -1em;
+}
+
+.screen-1 .email,
+.screen-1 .password {
+    background: var(--form-background);
+    box-shadow: var(--form-box-shadow);
+    padding: var(--form-padding);
+    display: flex;
+    flex-direction: column;
+    gap: var(--form-gap);
+    border-radius: var(--form-border-radius);
+    color: var(--form-text-color);
+    width: var(--form-width);
+}
+
+.screen-1 .email input,
+.screen-1 .password input {
+    outline: none;
+    border: none;
+}
+
+.screen-1 .email input::-moz-placeholder,
+.screen-1 .password input::-moz-placeholder {
+    color: black;
+    font-size: 0.9em;
+}
+
+.screen-1 .email input:-ms-input-placeholder,
+.screen-1 .password input:-ms-input-placeholder {
+    color: black;
+    font-size: 0.9em;
+}
+
+.screen-1 .email input::placeholder,
+.screen-1 .password input::placeholder {
+    color: black;
+    font-size: 0.9em;
+}
+
+.screen-1 .email ion-icon,
+.screen-1 .password ion-icon {
+    color: #060606;
+    margin-bottom: -0.2em;
+}
+
+.screen-1 .password .show-hide {
+    margin-right: -5em;
+}
+
+.screen-1 .login {
+    padding: 1em;
+    background: #228B22;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    width: 100%;
+    /* Ensure full width */
+    text-align: center;
+    /* Center align text */
+}
+
+.screen-1 .footer {
+    display: flex;
+    font-size: 0.7em;
+    color: #000000;
+    justify-content: space-between;
+    /* Distribute footer items */
+    width: 100%;
+    padding-top: 1em;
+    /* Add top padding */
+}
+
+.screen-1 .footer span {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}

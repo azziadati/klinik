@@ -1,0 +1,57 @@
+/* landing.css */
+
+/* Styling for landing section */
+.landing {
+    height: 400px;
+    /* Sesuaikan tinggi sesuai kebutuhan */
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* Menengahkan teks di dalam landing */
+    color: white;
+    /* Warna teks putih untuk kontras dengan background */
+}
+
+.landing .welcome-box {
+    max-width: 600px;
+    /* Lebar maksimum untuk kotak selamat datang */
+}
+
+.landing .welcome-box h1 {
+    font-size: 2.5rem;
+    /* Ukuran font judul utama */
+    margin-bottom: 10px;
+    /* Jarak antara judul utama dan subjudul */
+}
+
+.landing .welcome-box h2 {
+    font-size: 1.8rem;
+    /* Ukuran font subjudul */
+    margin-bottom: 20px;
+    /* Jarak antara subjudul dan tombol */
+}
+
+.landing .welcome-box .button-primary {
+    padding: 10px 20px;
+    /* Padding tombol */
+    font-size: 1rem;
+    /* Ukuran font tombol */
+    background-color: #3498db;
+    /* Warna latar tombol */
+    color: white;
+    /* Warna teks tombol */
+    border: none;
+    /* Menghilangkan border */
+    border-radius: 5px;
+    /* Sudut melengkung */
+    cursor: pointer;
+    /* Pointer mouse ketika hover */
+}
+
+.landing .welcome-box .button-primary:hover {
+    background-color: #2980b9;
+    /* Warna latar tombol saat hover */
+}
